@@ -2,3 +2,8 @@
   background-color: burlywood;
   border: solid;
 }
+
+.navIcon {
+  width: 6.25rem;
+  border-radius: 45%;
+}
