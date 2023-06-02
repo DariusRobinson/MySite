@@ -13,9 +13,9 @@ const Projects = () => {
   return (
     <>
       <Container className="d-flex justify-content-around">
-        <Row>
-          <Col xs={12}>
-            <Card style={{ width: "20rem" }}>
+        <Row className="row row-cols-lg-3">
+          <Col className="col-md-3 ">
+            <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.21 AM.jpg" />
               <Card.Body>
                 <Card.Title>Cinema's Top 251</Card.Title>
@@ -23,10 +23,9 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <Row>
-          <Col xs={12}>
-            <Card style={{ width: "20rem" }}>
+
+          <Col className="col-md-3 ">
+            <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.08 AM.jpeg" />
               <Card.Body>
                 <Card.Title>Cinema's Top 251</Card.Title>
@@ -34,10 +33,8 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <Row>
-          <Col xs={8}>
-            <Card style={{ width: "20rem" }}>
+          <Col className="col-md-3 ">
+            <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.27 AM.jpg" />
               <Card.Body>
                 <Card.Title>Cinema's Top 251</Card.Title>

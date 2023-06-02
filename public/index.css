@@ -5,5 +5,9 @@
 
 .navIcon {
   width: 6.25rem;
-  border-radius: 45%;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
 }
