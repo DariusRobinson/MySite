@@ -14,7 +14,7 @@ const Projects = () => {
     <>
       <Container className="d-flex justify-content-around">
         <Row className="row row-cols-lg-3">
-          <Col className="col-md-3 ">
+          <Col className="col-md-3  ">
             <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.21 AM.jpg" />
               <Card.Body>
@@ -23,7 +23,6 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-
           <Col className="col-md-3 ">
             <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.08 AM.jpeg" />
