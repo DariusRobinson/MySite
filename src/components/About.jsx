@@ -9,21 +9,33 @@ const About = () => {
   return (
     <div>
       <Navigation />
-      <Container>
-        <Row>
-          <Col md={6}>
-            <Card>
+      <Container className="my-5">
+        <Row className="align-items-center">
+          <Col md={5}>
+            <Card className="shadow-sm bg-transparent border-transparent padding-10px">
               <Card.Img
-                variant=""
                 src="IMG_4340.jpg"
-                style={{ width: "100%" }}
-              ></Card.Img>
+                style={{ width: "100%", height: "auto" }}
+                className="rounded-circle  shadow"
+              />
             </Card>
           </Col>
-          <Col md={6}>
-            <Card>
+          <Col md={7}>
+            <Card id="aboutCard" className="shadow-sm bg-transparent border-0">
               <Card.Body>
-                <Card.Text>Hi Im Darius </Card.Text>
+                <Card.Title>A little bit about me</Card.Title>
+                <Card.Text>
+                  I'm a joyful Web Developer who loves to laugh, succesful in
+                  both collabrotive and independent situations and enviorments.
+                  Leveraging 8+ years of client service and account management
+                  expirience with a personal commitment to thoughtful technology
+                  development and design. Professionally trained in
+                  hardware/software repair and maintenance with highly
+                  proficient skills in web application development. I have a
+                  particular passion for developing web applications with both
+                  efficient and appealing responsive UI! I'd love to chat and
+                  find out how I can help you and your team!
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
