@@ -25,11 +25,11 @@ const About = () => {
               <Card.Body>
                 <Card.Title>A little bit about me</Card.Title>
                 <Card.Text>
-                  I'm a joyful Web Developer who loves to laugh, succesful in
-                  both collabrotive and independent situations and enviorments.
-                  Leveraging 8+ years of client service and account management
-                  expirience with a personal commitment to thoughtful technology
-                  development and design. Professionally trained in
+                  I'm a joyful Web Developer who loves to laugh, succesful
+                  working both collabrotively in teams and independently.
+                  Leveraging 8+ years of client service and account/operations
+                  management expirience with a personal commitment to thoughtful
+                  technology development and design. Professionally trained in
                   hardware/software repair and maintenance with highly
                   proficient skills in web application development. I have a
                   particular passion for developing web applications with both
@@ -41,7 +41,9 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-      <Projects />
+      <Container className="mt-5">
+        <Projects id="section2" />
+      </Container>
     </div>
   );
 };

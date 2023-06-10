@@ -13,8 +13,8 @@ const Projects = () => {
   return (
     <>
       <Container className="d-flex justify-content-around">
-        <Row className="row row-cols-lg-3">
-          <Col className="col-md-3  ">
+        <Row className="row row-cols-1 row-cols-md-3 g-4">
+          <Col className="px-2">
             <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.21 AM.jpg" />
               <Card.Body>
@@ -23,7 +23,7 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="col-md-3 ">
+          <Col className="px-2">
             <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.08 AM.jpeg" />
               <Card.Body>
@@ -32,7 +32,7 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="col-md-3 ">
+          <Col className="px-2">
             <Card>
               <Card.Img variant="top" src="Image 8-27-22 at 12.27 AM.jpg" />
               <Card.Body>

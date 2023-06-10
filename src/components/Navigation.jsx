@@ -9,7 +9,17 @@ import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import { Link, animateScroll as scroll, scroller } from "react-scroll";
+
 const Navigation = () => {
+  const scrollTo = (id) => {
+    scroller.scrollTo(id, {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
   return (
     <Navbar
       className="sticky-nav"
@@ -18,7 +28,7 @@ const Navigation = () => {
       bg="dark"
       variant="dark"
     >
-      <Container class="container-fluid">
+      <Container className="container-fluid">
         <Row>
           <Col>
             <Navbar.Brand>
@@ -27,7 +37,49 @@ const Navigation = () => {
           </Col>
         </Row>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll"></Navbar.Collapse>
+        <Navbar.Collapse id="navbarScroll">
+          <ul className="navbar-nav mr-auto my-2 my-lg-0">
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 1
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 2
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Section 3
+              </Link>
+            </li>
+          </ul>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
