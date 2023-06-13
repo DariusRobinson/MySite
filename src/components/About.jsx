@@ -1,5 +1,5 @@
-import React from "react";
-import { Navigation, Projects } from "./";
+import React, { useEffect, useRef, useState } from "react";
+import { Navigation, Projects, Skills } from "./";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -7,8 +7,10 @@ import Card from "react-bootstrap/Card";
 
 const About = () => {
   return (
-    <div>
-      <Navigation />
+    <section id="aboutSection">
+      <Container>
+        <h1>About Me!</h1>
+      </Container>
       <Container className="my-5">
         <Row className="align-items-center">
           <Col md={5}>
@@ -21,7 +23,7 @@ const About = () => {
             </Card>
           </Col>
           <Col md={7}>
-            <Card id="aboutCard" className="shadow-sm bg-transparent border-0">
+            <Card id="aboutCard" className=" bg-transparent border-0">
               <Card.Body>
                 <Card.Title>A little bit about me</Card.Title>
                 <Card.Text>
@@ -41,10 +43,13 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="mt-5">
-        <Projects id="section2" />
+      <Container>
+        <Skills />
       </Container>
-    </div>
+      <Container className="mt-5">
+        <Projects />
+      </Container>
+    </section>
   );
 };
 

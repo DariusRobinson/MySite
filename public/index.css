@@ -1,8 +1,3 @@
-.col {
-  background-color: burlywood;
-  border: solid;
-}
-
 .navIcon {
   width: 6.25rem;
 }
@@ -15,4 +10,9 @@
 #aboutCard {
   background-color: lightgray;
   box-shadow: 0 5px 20px 2px black;
+}
+
+#skillsCard {
+  background: #333;
+  color: white;
 }

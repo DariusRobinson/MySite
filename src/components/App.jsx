@@ -1,16 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Button from "react-bootstrap/Button";
-import { Navigation, Projects, About } from "./";
+import { Navigation, Projects, About, Skills } from "./";
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<About id="section1" />} />
-        <Route path="/portfolio" element={<Projects id="section2" />} />
-      </Routes>
-    </Router>
+    <>
+      <Navigation />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<About />} />
+          <Route path="/portfolio" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </Router>
+    </>
   );
 };
 

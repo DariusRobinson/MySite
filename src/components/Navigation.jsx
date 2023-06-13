@@ -24,16 +24,16 @@ const Navigation = () => {
     <Navbar
       className="sticky-nav"
       collapseOnSelect
-      expand="lg"
-      bg="dark"
-      variant="dark"
+      expand="md"
+      bg="light"
+      variant="light"
+      fixed="top"
+      style={{ padding: "10px" }}
     >
-      <Container className="container-fluid">
+      <Container className="container-fluid ">
         <Row>
           <Col>
-            <Navbar.Brand>
-              <Image className="navIcon" src="IMG_4340.jpg" roundedCircle />
-            </Navbar.Brand>
+            <Navbar.Brand>Darius Robinson</Navbar.Brand>
           </Col>
         </Row>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -43,39 +43,39 @@ const Navigation = () => {
               <Link
                 className="nav-link"
                 activeClass="active"
-                to="section1"
+                to="aboutSection"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                About
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 className="nav-link"
                 activeClass="active"
-                to="section2"
+                to="skillsSection"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                Skills
               </Link>
             </li>
             <li className="nav-item">
               <Link
                 className="nav-link"
                 activeClass="active"
-                to="section3"
+                to="projectsSection"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 3
+                Projects
               </Link>
             </li>
           </ul>
