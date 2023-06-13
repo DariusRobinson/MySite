@@ -15,7 +15,7 @@ const Skills = () => {
           <Col>
             <Card id="skillsCard" rounded>
               <Card.Header className="d-flex justify-content-center">
-                <h4>Technical Skills</h4>
+                <h4>Web Developer</h4>
               </Card.Header>
               <Card.Body>
                 <Card.Text>
@@ -31,7 +31,7 @@ const Skills = () => {
           <Col>
             <Card rounded>
               <Card.Header className="d-flex justify-content-center">
-                <h4>Technical Skills</h4>
+                <h4>Account&Operations Management</h4>
               </Card.Header>
               <Card.Body>
                 <Card.Text>
@@ -47,7 +47,7 @@ const Skills = () => {
           <Col>
             <Card id="skillsCard" rounded>
               <Card.Header className="d-flex justify-content-center">
-                <h4>Technical Skills</h4>
+                <h4>IT Professional</h4>
               </Card.Header>
               <Card.Body>
                 <Card.Text>
