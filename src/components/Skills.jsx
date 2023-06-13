@@ -10,34 +10,55 @@ const Skills = () => {
       <Container className="d-flex justify-content-center p-2">
         <h1>Skills</h1>
       </Container>
-      <Container lassName="d-flex justify-content-center p-2">
-        <Row>
-          <Col id="skillsCard">
-            <Card></Card>
-            <Card.Header>
-              <h4>Technical Skills</h4>
-            </Card.Header>
-            <Card.Body>
-              <Card.Text>
-                I'm a joyful Web Developer who loves to laugh, succesful working
-                both collabrotively in teams and independently. Leveraging 8+
-                years of client service and account/operations management
-                expirience with a personal commitment to thoughtful technology
-                development and design.
-              </Card.Text>
-            </Card.Body>
+      <Container className="d-flex justify-content-center p-2">
+        <Row className="row row-cols-1 row-cols-md-3 g-3">
+          <Col>
+            <Card id="skillsCard" rounded>
+              <Card.Header className="d-flex justify-content-center">
+                <h4>Technical Skills</h4>
+              </Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  I'm a joyful Web Developer who loves to laugh, succesful
+                  working both collabrotively in teams and independently.
+                  Leveraging 8+ years of client service and account/operations
+                  management expirience with a personal commitment to thoughtful
+                  technology development and design.
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
           <Col>
-            <Card.Header>Technical Skills</Card.Header>
-            <Card.Body>
-              <Card.Text>
-                I'm a joyful Web Developer who loves to laugh, succesful working
-                both collabrotively in teams and independently. Leveraging 8+
-                years of client service and account/operations management
-                expirience with a personal commitment to thoughtful technology
-                development and design.
-              </Card.Text>
-            </Card.Body>
+            <Card rounded>
+              <Card.Header className="d-flex justify-content-center">
+                <h4>Technical Skills</h4>
+              </Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  I'm a joyful Web Developer who loves to laugh, succesful
+                  working both collabrotively in teams and independently.
+                  Leveraging 8+ years of client service and account/operations
+                  management expirience with a personal commitment to thoughtful
+                  technology development and design.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card id="skillsCard" rounded>
+              <Card.Header className="d-flex justify-content-center">
+                <h4>Technical Skills</h4>
+              </Card.Header>
+              <Card.Body>
+                <Card.Text>
+                  I'm a joyful Web Developer who loves to laugh, succesful
+                  working both collabrotively in teams and independently.
+                  Leveraging 8+ years of client service and account/operations
+                  management expirience with a personal commitment to thoughtful
+                  technology development and design.
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>

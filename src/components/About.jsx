@@ -8,10 +8,8 @@ import Card from "react-bootstrap/Card";
 const About = () => {
   return (
     <section id="aboutSection">
-      <Container>
+      <Container className="my-5 mb-5">
         <h1>About Me!</h1>
-      </Container>
-      <Container className="my-5">
         <Row className="align-items-center">
           <Col md={5}>
             <Card className="shadow-sm bg-transparent border-transparent padding-10px">
@@ -43,10 +41,10 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-      <Container>
+      <Container className="custom-margin-top">
         <Skills />
       </Container>
-      <Container className="mt-5">
+      <Container className="custom-margin-top">
         <Projects />
       </Container>
     </section>

@@ -30,7 +30,7 @@ const Navigation = () => {
       fixed="top"
       style={{ padding: "10px" }}
     >
-      <Container className="container-fluid ">
+      <Container className="container-fluid">
         <Row>
           <Col>
             <Navbar.Brand>Darius Robinson</Navbar.Brand>
