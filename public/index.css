@@ -17,6 +17,56 @@
   color: white;
 }
 
+/* .projectCardWrapper {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.projectCard {
+  width: 100%;
+} */
+
 .custom-margin-top {
   margin-top: 15rem;
+}
+
+.projectCardWrapper {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.projectCard {
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  transition: box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projectCard .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projectCard .card-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.projectCard button {
+  background-color: #7a10e3;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.projectCard button:hover {
+  background-color: #33006d;
 }
