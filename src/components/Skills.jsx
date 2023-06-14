@@ -28,7 +28,7 @@ const Skills = () => {
             </Card>
           </Col>
           <Col>
-            <Card rounded>
+            <Card id="skillCard" rounded>
               <Card.Header className="skillsCard d-flex justify-content-center">
                 <h4>Account and Operations Management</h4>
               </Card.Header>

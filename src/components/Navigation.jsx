@@ -78,6 +78,19 @@ const Navigation = () => {
                 Projects
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="contactSection"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </Navbar.Collapse>
       </Container>

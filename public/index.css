@@ -17,7 +17,17 @@
   color: white;
 }
 
-/* .projectCardWrapper {
+#skillCard:hover {
+  transform: scale(1.2);
+  filter: grayscale(100%);
+}
+
+#skillsCard:hover {
+  transform: scale(1.2);
+  filter: grayscale(100%);
+}
+
+.projectCardWrapper {
   height: 100%;
   display: flex;
   align-items: stretch;
@@ -25,7 +35,7 @@
 
 .projectCard {
   width: 100%;
-} */
+}
 
 .custom-margin-top {
   margin-top: 15rem;
@@ -60,15 +70,16 @@
 }
 
 .projectCard button {
-  background-color: #7a10e3;
-  border: none;
-  color: #fff;
-  padding: 8px 16px;
-  font-size: 14px;
+  background-color: transparent;
+  border-color: black !important;
+  color: black !important;
+  padding: 8px 16px !important;
+  font-size: 14px !important;
 }
 
 .projectCard button:hover {
-  background-color: #33006d;
+  color: white !important;
+  background-color: black !important;
 }
 
 #aboutIMG {
@@ -96,4 +107,27 @@
   border: 0;
 
   height: 50px;
+}
+
+.outerPageLinks:hover {
+  transform: scale(1.2);
+  filter: grayscale(100%);
+}
+
+#resumeButton {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.resumeButton:hover {
+  color: white !important;
+  background-color: black !important;
+  border: thick #0d6efd;
+}
+
+.contactButton:hover {
+  color: white !important;
+  background-color: black !important;
+  border: thick #0d6efd;
 }
