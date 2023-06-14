@@ -80,7 +80,7 @@ const Projects = () => {
           className="d-flex justify-content-center mb-5"
           id="ProjTitleContainer"
         >
-          <h1>Projects</h1>
+          <h1>A Little of My Work</h1>
         </Container>
         <Container className="d-flex justify-content-center p-2">
           <Row className="row row-cols-1 row-cols-md-2 g-3">

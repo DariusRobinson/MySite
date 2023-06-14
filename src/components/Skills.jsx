@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <section id="skillsSection">
       <Container className="d-flex justify-content-center mb-5 p-2">
-        <h1>Skills</h1>
+        <h1>Developed Skills</h1>
       </Container>
       <Container className="d-flex justify-content-center p-2">
         <Row className="row row-cols-1 row-cols-md-3 g-3">
@@ -22,7 +22,7 @@ const Skills = () => {
                   JavaScript | React | Express | Redux | Node.js | HTML | CSS3 |
                   PostgreSQL | C# | .NET | Ajax | Microsoft SQLServer | Visual
                   Studio | Visual Studio Code | Azure Portal | Azure Data Studio
-                  | Azure Repos | Git | GitHub | JSON |
+                  | Azure Repos | Git | GitHub | JSON | Bootstrap
                 </Card.Text>
               </Card.Body>
             </Card>

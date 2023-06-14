@@ -79,3 +79,21 @@
 .custom-margin-top-start {
   margin-top: 8rem;
 }
+
+#githubLogo {
+  margin-top: 1%;
+  border-radius: 50%;
+  max-height: 45px;
+}
+
+#linkedinLogo {
+  margin-top: 3%;
+  max-height: 30px;
+  border-radius: 11%;
+}
+
+.outerPageLinks {
+  border: 0;
+
+  height: 50px;
+}

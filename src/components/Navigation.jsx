@@ -49,7 +49,7 @@ const Navigation = () => {
                 offset={-70}
                 duration={500}
               >
-                About
+                About Me
               </Link>
             </li>
             <li className="nav-item">

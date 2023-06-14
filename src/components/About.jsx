@@ -61,7 +61,7 @@
 // export default About;
 
 import React from "react";
-import { Navigation, Projects, Skills } from "./";
+import { Navigation, Projects, Skills, Footer } from "./";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -115,6 +115,9 @@ const About = () => {
       </Container>
       <Container className="custom-margin-top">
         <Projects />
+      </Container>
+      <Container className="mt-5">
+        <Footer />
       </Container>
     </section>
   );
