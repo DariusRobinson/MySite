@@ -12,11 +12,16 @@ const About = () => {
         <h1>About Me!</h1>
         <Row className="align-items-center">
           <Col md={5}>
-            <Card className="shadow-sm bg-transparent border-transparent padding-10px">
+            <Card className="shadow-none bg-transparent border-0 p-0">
               <Card.Img
-                src="IMG_4340.jpg"
-                style={{ width: "100%", height: "auto" }}
+                src="IMG_8160.jpeg"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  background: "transparent",
+                }}
                 className="rounded-circle  shadow"
+                id="aboutIMG"
               />
             </Card>
           </Col>

@@ -35,8 +35,8 @@ const Skills = () => {
               <Card.Body>
                 <Card.Text>
                   Leadership | Team Management | Decision-making | Communication
-                  | Customer Service | Collaboration | Adaptability | Integrity
-                  | Accountability |
+                  | Customer Service | Collaboration | Adaptability | Training
+                  Accountability | Learning Agility | Analytical Thinking
                 </Card.Text>
               </Card.Body>
             </Card>

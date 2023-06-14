@@ -70,3 +70,8 @@
 .projectCard button:hover {
   background-color: #33006d;
 }
+
+#aboutIMG {
+  background: transparent;
+  border: none;
+}

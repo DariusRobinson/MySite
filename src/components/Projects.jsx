@@ -96,13 +96,11 @@ const Projects = () => {
                 </Card>
               </div>
             </Col>
+
             <Col className="px-2">
               <div className="projectCardWrapper">
                 <Card className="projectCard" rounded>
-                  <Card.Img
-                    variant="top"
-                    src="Image 8-27-22 at 12.08 AM.jpeg"
-                  />
+                  <Card.Img variant="top" src="Image 8-27-22 at 12.27 AM.jpg" />
                   <Card.Body>
                     <Card.Title>Cinema's Top 251</Card.Title>
                     <Card.Text>Description</Card.Text>
@@ -114,7 +112,10 @@ const Projects = () => {
             <Col className="px-2">
               <div className="projectCardWrapper">
                 <Card className="projectCard" rounded>
-                  <Card.Img variant="top" src="Image 8-27-22 at 12.27 AM.jpg" />
+                  <Card.Img
+                    variant="top"
+                    src="Image 8-27-22 at 12.08 AM.jpeg"
+                  />
                   <Card.Body>
                     <Card.Title>Cinema's Top 251</Card.Title>
                     <Card.Text>Description</Card.Text>
