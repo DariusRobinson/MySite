@@ -124,6 +124,18 @@ const Projects = () => {
                 </Card>
               </div>
             </Col>
+            <Col className="px-2">
+              <div className="projectCardWrapper">
+                <Card className="projectCard" rounded>
+                  <Card.Img variant="top" src="image 6-14-23.jpeg" />
+                  <Card.Body>
+                    <Card.Title>My first Personal Site!</Card.Title>
+                    <Card.Text>Description</Card.Text>
+                    <Button>Check it Out</Button>
+                  </Card.Body>
+                </Card>
+              </div>
+            </Col>
           </Row>
         </Container>
       </section>
