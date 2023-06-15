@@ -35,7 +35,7 @@ const Skills = () => {
               <Card.Body>
                 <Card.Text>
                   Leadership | Team Management | Decision-making | Communication
-                  | Customer Service | Collaboration | Adaptability | Training
+                  | Customer Service | Collaboration | Adaptability | Training |
                   Accountability | Learning Agility | Analytical Thinking
                 </Card.Text>
               </Card.Body>
@@ -48,11 +48,11 @@ const Skills = () => {
               </Card.Header>
               <Card.Body>
                 <Card.Text>
-                  I'm a joyful Web Developer who loves to laugh, succesful
-                  working both collabrotively in teams and independently.
-                  Leveraging 8+ years of client service and account/operations
-                  management expirience with a personal commitment to thoughtful
-                  technology development and design.
+                  IT Support for computers, scanners, printers.. | Hardware
+                  repair for computers, phones, tablets | Software repair |
+                  Microsoft 365 & Active directory administration | Microsoft
+                  office suite | Technical documentation | Azure | Cloud pc
+                  administration
                 </Card.Text>
               </Card.Body>
             </Card>
