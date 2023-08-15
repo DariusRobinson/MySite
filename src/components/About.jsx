@@ -55,7 +55,8 @@ const About = () => {
                   borderColor: "black",
                   color: "black",
                 }}
-                href="https://drive.google.com/file/d/1Zbs_lWEN8BPZaGCOZCxT3xFPAsN5GtO8/view"
+                href="https://drive.google.com/file/d/1QBkqTfwuLjP3cOCBNXoy5fbYKJjuNaRR/view?usp=drive_link/view
+              "
               >
                 Resume
               </Button>
