@@ -20,6 +20,44 @@ const Projects = () => {
             <Col className="px-2">
               <div className="projectCardWrapper">
                 <Card className="projectCard" rounded>
+                  <Card.Img variant="top" src="img 2023-10-26.jpeg" />
+                  <Card.Body>
+                    <Card.Title className="text-center">
+                      <img
+                        src="https://media1.giphy.com/media/EIiJp9cQ3GeEU/giphy.gif?cid=ecf05e47eidf67lzr77549p0rcezc5ih0oljsvo4eoljywmg&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                        style={{ width: "100px", height: "100px" }}
+                      ></img>
+                      Weather With You!
+                      <img
+                        src="https://media1.giphy.com/media/EIiJp9cQ3GeEU/giphy.gif?cid=ecf05e47eidf67lzr77549p0rcezc5ih0oljsvo4eoljywmg&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                        style={{ width: "100px", height: "100px" }}
+                      ></img>
+                    </Card.Title>
+                    <Card.Text>
+                      A weather app under construction, that users can search
+                      and favorite their favorite cities to show up on their
+                      profile. With in-depth weather information at hourly,
+                      daily, and weekly intervals and easy to read charts and
+                      graphs you will never be caught unprepared again!
+                    </Card.Text>
+                    <Card.Footer>
+                      Single Page application leveraging: React, Express, Node,
+                      JavaScript, HTML, CSS, and PostgreSQL stack, Recharts,
+                      Vercel, React Bootstrap, JSON
+                    </Card.Footer>
+                    <Button
+                      className="lastButton"
+                      href="https://thedariusrobinson.netlify.app/"
+                    >
+                      Check it Out
+                    </Button>
+                  </Card.Body>
+                </Card>
+              </div>
+            </Col>
+            <Col className="px-2">
+              <div className="projectCardWrapper">
+                <Card className="projectCard" rounded>
                   <Card.Img variant="top" src="Image 8-27-22 at 12.21 AM.jpg" />
                   <Card.Body>
                     <Card.Title>Cinema's Top 251</Card.Title>
