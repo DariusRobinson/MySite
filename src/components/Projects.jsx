@@ -47,7 +47,7 @@ const Projects = () => {
                     </Card.Footer>
                     <Button
                       className="lastButton"
-                      href="https://thedariusrobinson.netlify.app/"
+                      href="https://weather-app-9f47.vercel.app/"
                     >
                       Check it Out
                     </Button>
