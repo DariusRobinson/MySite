@@ -48,7 +48,7 @@ const About = () => {
               </Card.Body>
             </Card>
             <Container id="resumeButton">
-              <Button
+              {/* <Button
                 className="resumeButton"
                 style={{
                   backgroundColor: "transparent",
@@ -58,7 +58,7 @@ const About = () => {
                 href="https://drive.google.com/file/d/1rOwfDRENEgzk1P6BecAK6Ab1MKRBITH1/view?usp=sharing"
               >
                 Resume
-              </Button>
+              </Button> */}
             </Container>
           </Col>
         </Row>
